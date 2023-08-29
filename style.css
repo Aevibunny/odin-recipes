@@ -1,0 +1,20 @@
+* {
+
+    line-height: 300%;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+.recipe-list {
+    text-align: center;
+    list-style-position: inside;
+    size: 24px;
+}
+
+img {
+    height: auto;
+    width: 600px;
+}
