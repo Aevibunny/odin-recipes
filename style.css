@@ -2,7 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
     margin-right: 20px;
-    line-height: 300%;
     background-color: antiquewhite;
 }
 
@@ -10,15 +9,41 @@ h1 {
     text-align: center;
 }
 
-.recipe-list {
-    text-align: center;
-    list-style-position: inside;
-    size: 24px;
-}
-
-img {
+.recipe-img {
     height: auto;
     width: 600px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
+}
+
+.recipe-container {
+    display: flex;
+    outline: 2px solid black;
+    margin: 10px;
+}
+
+.recipe-card {
+    flex: 1 1 auto;
+    max-height: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.index-img {
+    flex: 0 0 350px;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 350px;
+    max-height: 350px;
+    padding: 10px;
+    margin: 0;
+}
+
+.recipe-card a {
+    outline: 1px solid black;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    background-color: white;
 }
